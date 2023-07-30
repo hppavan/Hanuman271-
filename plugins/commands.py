@@ -91,15 +91,15 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🌷 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🌷', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🕯ᴜᴘᴅᴀᴛᴇ 🕯', url=CHNL_LNK),
-                    InlineKeyboardButton('📁 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('🛡ᴜᴘᴅᴀᴛᴇ 🛡', url=CHNL_LNK),
+                    InlineKeyboardButton('🎟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🎟', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('👻 ʜᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('💡 ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('📒 ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
+                    InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -150,8 +150,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('📁 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 📁', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('💻ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('🎟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🎟', url=f'https://t.me/{SUPPORT_CHAT}'),
+                          InlineKeyboardButton('🛡 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🛡', url=CHNL_LNK)
                        ],[
                           InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/searchmoviesname")
                          ]
@@ -169,8 +169,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('📁ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('📂ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('🎟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🎟', url=f'https://t.me/{SUPPORT_CHAT}'),
+                          InlineKeyboardButton('🛡 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ 🛡', url=CHNL_LNK)
                        ],[
                           InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/searchmoviesname")
                          ]
@@ -333,8 +333,8 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('📂ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                      InlineKeyboardButton('💻Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                      InlineKeyboardButton('🎟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🎟', url=f'https://t.me/{SUPPORT_CHAT}'),
+                      InlineKeyboardButton('🛡 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🛡', url=CHNL_LNK)
                    ],[
                       InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/searchmoviesname")
                      ]
@@ -448,10 +448,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+              InlineKeyboardButton('🎟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🎟', url=f'https://t.me/{SUPPORT_CHAT}'),
+              InlineKeyboardButton('🛡 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🛡', url=CHNL_LNK)
            ],[
-              InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/searchmoviesname")
+              InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/searchmoviesname")
              ]
             ]
         )
