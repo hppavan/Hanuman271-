@@ -49,7 +49,7 @@ async def start(client, message):
                     InlineKeyboardButton('🎟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🎟', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('💡 ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('📒 ᴀʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('⛄ ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
                     InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
                   ]]
@@ -97,7 +97,7 @@ async def start(client, message):
                     InlineKeyboardButton('🎟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🎟', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('💡 ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('📒 ᴀʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('⛄ ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
                     InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
                   ]]
@@ -391,10 +391,10 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                      InlineKeyboardButton('🎟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🎟', url=f'https://t.me/{SUPPORT_CHAT}'),
+                      InlineKeyboardButton('🛡 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🛡', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/searchmoviesname")
+                      InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/searchmoviesname")
                      ]
                     ]
                 )
